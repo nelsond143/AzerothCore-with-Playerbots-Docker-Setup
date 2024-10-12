@@ -89,5 +89,9 @@ It will prompt you if you want to delete the volumes. (Dont let the warnings sca
 * .additem 2770 120 #Copper
 * .additem 2835 120 #Rough Stone
 * .additem 2589 120 #Linen Cloth
-
+* .additem 2318 120 #Light Leather
+* .additem 2319 120 #Medium Leather
+* .additem 2770 120 #Copper Ore
+* .additem 2771 120 #Tin Ore
+* .additem 2775 120 #Silver Ore
 ---                                                                                                             
