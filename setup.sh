@@ -80,32 +80,6 @@ else
     fi
 fi
 
-if ask_user "Install modules?"; then
-
-    cd modules
-
-    function install_mod() {
-    local mod_name=$1
-    local repo_url=$2
-
-    if [ -d "${mod_name}" ]; then
-        echo "${mod_name} exists. Skipping..."
-    else
-        if ask_user "Install ${mod_name}?"; then
-            git clone "${repo_url}"
-        fi
-    fi
-    }
-
-    install_mod "mod-aoe-loot" "https://github.com/azerothcore/mod-aoe-loot.git"
-    install_mod "mod-learn-spells" "https://github.com/noisiver/mod-learnspells.git"
-    install_mod "mod-fireworks-on-level" "https://github.com/azerothcore/mod-fireworks-on-level.git"
-    install_mod "mod-individual-progression" "https://github.com/ZhengPeiRu21/mod-individual-progression.git"
-
-    cd ..
-
-fi
-
 
 docker compose up -d --build
 
