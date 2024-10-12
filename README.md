@@ -78,4 +78,16 @@ It will prompt you if you want to delete the volumes. (Dont let the warnings sca
 
 - You can backup and recover the databases by running `./sqldump.sh`. It will place the backups in `sql_dumps` folder... On recovery, you will be prompted to enter a date (given you back up once a day at maximum.)
 
+### Useful Commands
+* lookup quest <name>
+* quest complete <id>
+* modify speed all 2.5
+* modify money 100000
+
+* additem id value
+* additem set id
+* .additem 2770 120 #Copper
+* .additem 2835 120 #Rough Stone
+* .additem 2589 120 #Linen Cloth
+
 ---                                                                                                             

@@ -6,5 +6,8 @@ services:
   ac-worldserver:
     environment:
       TZ: ${TZ}
+      AC_MAX_PRIMARY_TRADE_SKILL: 11
+      AC_INSTANT_LOGOUT: 0
+      AC_MAIL_DELIVERY_DELAY: 0
     volumes:
       - ./modules:/azerothcore/modules:rw
