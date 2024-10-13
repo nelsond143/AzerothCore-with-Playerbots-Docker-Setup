@@ -82,16 +82,40 @@ It will prompt you if you want to delete the volumes. (Dont let the warnings sca
 * lookup quest <name>
 * quest complete <id>
 * modify speed all 2.5
-* modify money 100000
+
+* .character level <name> <levelNumber>
+* modify money 10000000
+* .additem 23162 4 #Gives largest containers
+* .maxskill #Increases basic games skills to max
+
 
 * additem id value
 * additem set id
 * .additem 2770 120 #Copper
 * .additem 2835 120 #Rough Stone
+* .additem 2836 120 #Coarse Stone
 * .additem 2589 120 #Linen Cloth
 * .additem 2318 120 #Light Leather
 * .additem 2319 120 #Medium Leather
 * .additem 2770 120 #Copper Ore
 * .additem 2771 120 #Tin Ore
 * .additem 2775 120 #Silver Ore
+* .additem 2772 120 #Iron Ore
+
+* .additem 774 10 #Malachite
+
+* .additem 2321 20 #Fine Thread
+
+* .additem 2841 120 #Bronze Bar
+
+* .additem 10938 100 #Lesser Magic Essence
+* .additem 10940 100 #Strange Dust
+
+
+### Useful Playerbots Commands
+.playerbots bot init=rare Kanea respawn @ your level w/ max talents & rare gear (random bots only)
+.playerbots bot init=rare name1,name2,name3 respawn @ your level w/ max talents & rare gear (random bots only)
+
+
+
 ---                                                                                                             
